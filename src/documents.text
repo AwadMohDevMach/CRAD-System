@@ -1,0 +1,36 @@
+-build project routing and layout by craeteBrowserRouter and provider
+-integrate redux toolkit with react router
+-json server/jsonserver auth
+-components and sngle resposibility principe 
+-use createAsyncThunk to handle Api requests
+-more in thunk api handle error , global state 
+-optimization techniques (usecallback and memo)
+-custom hooks
+-handling thunk result 
+-use axtra reducer to listen to outside action 
+-intro to the react router loader (as a gurad) 
+-intro formik 
+-react HOC(higher order components) design pattern
+    - with : router Guards 
+    - AUX : loading & error handling 
+        - extra layer by react clone element 
+----------
+chapter 1
+react router 6.4.1
+    - create routes and layout
+    - create nav links 
+    - handling router error 
+    - router loader
+    - throw new router error
+---loader functon same the useeffect function but it is firing befor run components   
+------------
+chapter 2
+redux toolkit
+    - install redux toolkit with react router 
+    - create post slice 
+    - create async thunk 
+    - clean code & HOC part 1
+    - thunk API on details 
+    - handling thunk results
+    - HOC with clone element
+
